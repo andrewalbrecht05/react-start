@@ -1,0 +1,46 @@
+
+@media screen and (max-width: 600px) {
+    .sign-in__form{
+        background-color: #393646;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30%;
+        border-radius: 10px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .sign-in__form h2{
+        color: #F4EEE0;
+        text-align: center;
+        padding-top: 10%;
+        padding-bottom: 8%;
+    }
+
+    input{
+        color: #F4EEE0;
+        background-color: #4F4557;
+        width: 80%;
+        margin: 10px auto 10px auto;
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
+        border-color: #F4EEE0;
+    }
+
+    button{
+        width: 60%;
+        margin: 20px auto 20px auto;
+        background-color: #4F4557;
+        color: #F4EEE0;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        border-radius: 30px;
+        border-color: #F4EEE0;
+    }
+}
+
+
+@media screen and (min-width: 601px) {
+    
+}
